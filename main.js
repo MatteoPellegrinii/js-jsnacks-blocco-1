@@ -3,7 +3,7 @@ let secondarray = ["parola1-2", "parola2-2" ];
 
 let ulfirst = document.getElementById("first");
 
-for (let i = 0; i<firstarray.length; i++){
+for (let i = 0; i < firstarray.length; i++){
   let firstarraycontent = firstarray[i];
   let firstli = document.createElement("li");
   firstli.append(firstarraycontent);
@@ -12,8 +12,8 @@ for (let i = 0; i<firstarray.length; i++){
 
   let ulsecond = document.createElement("ul");
 
-  for (let j = 0; j < secondarray.length; i++){
-    let secondarraycontent = secondarray[i];
+  for (let j = 0; j < secondarray.length; j++){
+    let secondarraycontent = secondarray[j];
     let secondli = document.createElement("li");
     secondli.append(secondarraycontent);
     ulsecond.append(secondli);
